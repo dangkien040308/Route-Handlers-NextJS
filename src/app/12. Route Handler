@@ -1,0 +1,8 @@
+# Route Handlers 
+ - We've learnt how to route to pages 
+ - We can also create custom request handlers for out routes using a feature called route handlers 
+ - Unlike page routes , which respond with HTML content , route handlers allow you to create RESTful endpoints, giving you full control over the response 
+ - There is no overhead of having to create and configure a seperate server 
+ - Route handlers are also greate for making external API requests
+ - Route handlers run server-side, ensuring that sensitive information like private keys remain secure and never gets shipped to the browser 
+ - Route handlers are the equivalent of API routes in Page router
